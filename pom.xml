@@ -14,7 +14,7 @@
         <serenity.version>4.0.1</serenity.version>
         <junit-vintage-engine.version>5.9.3</junit-vintage-engine.version>
         <junit-platform-suite.version>1.9.3</junit-platform-suite.version>
-        <cucumber-junit-platform-engine.version>7.2.3</cucumber-junit-platform-engine.version>
+        <cucumber-junit-platform-engine.version>7.11.1</cucumber-junit-platform-engine.version>
         <encoding>UTF-8</encoding>
         <tags></tags>
         <webdriver.base.url></webdriver.base.url>
@@ -83,12 +83,18 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.10</version>
+            <version>1.4.7</version>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.23.1</version>
+            <version>3.24.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.deque.html.axe-core</groupId>
+            <artifactId>selenium</artifactId>
+            <version>4.5.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
